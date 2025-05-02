@@ -14,9 +14,7 @@ int main(){
         summation = a+b;
         subtraction = a-b;
         multiplication = a*b;
-        printf("The summation is : %d\n", summation);
-        printf("The subtraction is : %d\n", subtraction);
-        printf("The multiplication is : %d\n", multiplication);
+        printf("%d %d %d", summation, subtraction, multiplication);
     }
     else {
         printf("please enter the two positive number");
