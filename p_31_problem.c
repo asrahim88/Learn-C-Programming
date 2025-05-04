@@ -8,39 +8,25 @@
     Smallest = 34 
 
 */
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int a, b, c, d;
-    printf("Please Enter the 4 Distinct Numbers: ");
+    printf("Please Enter 4 Distinct Numbers: ");
     scanf("%d %d %d %d", &a, &b, &c, &d);
 
-    if (a>b && a >c && a>d)
-    {
-        printf("Largest = %d", a);
-    } else if (b>a && b>c && b >d)
-    {
-        printf("Largest = %d", b);
-        
-    } else if (c>a && c>b && c >d)
-    {
-        printf("Largest = %d", c);
-        
-    }else {
-        printf("Largest = %d", d);
-    }
-    printf("\n");
-    if (a<b && a <c && a<d)
-    {
-        printf("Smallest = %d", a);
-    } else if (b<a && b<c && b <d)
-    {
-        printf("Smallest = %d", b);
-        
-    } else if (c<a && c<b && c <d)
-    {
-        printf("Smallest = %d", c);
-        
-    }else {
-        printf("Smallest = %d", d);
-    }
+    int largest = a;
+    if (b > largest) largest = b;
+    if (c > largest) largest = c;
+    if (d > largest) largest = d;
+
+    int smallest = a;
+    if (b < smallest) smallest = b;
+    if (c < smallest) smallest = c;
+    if (d < smallest) smallest = d;
+
+    printf("Largest = %d\n", largest);
+    printf("Smallest = %d\n", smallest);
+
+    return 0;
 }
