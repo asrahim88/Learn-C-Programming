@@ -6,13 +6,15 @@ int main(){
    
   for (int i = row; i >=1; i--)
   {
-    for (int j = 1; j <=i; j++)
+    for (int j = 1; j < i; j++)
     {
         /* code */
         printf("%c ", j+64);
     }
-    printf("\n");  
+    printf("\n");
+    
   }
   
+    
     return 0;
 }
