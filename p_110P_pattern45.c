@@ -9,9 +9,7 @@ int main(){
         {
             printf("%c ", j+64);
         }
-        printf("\n");
-        
+        printf("\n");   
     }
-    
     return 0;
 }
