@@ -15,7 +15,7 @@ int main() {
     {
         aray[i] = aray[i-1];
     }
-    aray[1] = value;
+    aray[index] = value;
 
     for (int i = 0; i <=n; i++)
     {
