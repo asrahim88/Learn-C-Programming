@@ -30,12 +30,12 @@ int main() {
             }
         }
         if(flag == 0) {
-            printf("scaler matrix");
+            printf("unit matrix");
         }else {
-            printf("not scaler matrix");
+            printf("not unit matrix");
         }
     }else {
-        printf("This is not scaler matrix.");
+        printf("This is not unit matrix.");
     }
     return 0;
 }
