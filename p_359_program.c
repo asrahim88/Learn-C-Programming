@@ -23,12 +23,12 @@ int main() {
             }
         }
         if(flag == 0) {
-            printf("scaler matrix");
+            printf("This scaler matrix");
         }else {
-            printf("not scaler matrix.");
+            printf("This not scaler matrix.");
         }
     }else {
-        printf("not scaler matrix.");
+        printf("This not scaler matrix.");
     }
     return 0;
 }
